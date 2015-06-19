@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/com.example.cz"
+    android:layout_width="match_parent"
+    android:layout_height="55dp"
+    android:background="@drawable/menubac"
+    android:orientation="horizontal" >
+
+    <com.example.bottommenu.bottommenu
+        android:id="@+id/table"
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:padding="5dp"
+        app:image="@drawable/ic_menu_setting"
+        app:text="课表查询"
+        app:text_size="12sp"
+        app:color="#ff45c01a" />
+
+    <com.example.bottommenu.bottommenu
+        android:id="@+id/course"
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:padding="5dp"
+        app:image="@drawable/ic_menu_course"
+        app:text="课程查询"
+        app:text_size="12sp"
+        app:color="#ff45c01a" />
+
+    <com.example.bottommenu.bottommenu
+        android:id="@+id/grade"
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:padding="5dp"
+        app:image="@drawable/ic_menu_grade"
+        app:text="成绩查询"
+        app:text_size="12sp"
+        app:color="#ff45c01a" />
+
+    <com.example.bottommenu.bottommenu
+        android:id="@+id/setting"
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:padding="5dp"
+        app:image="@drawable/ic_menu_setting"
+        app:text="设置"
+        app:text_size="12sp"
+        app:color="#ff45c01a" />
+
+</LinearLayout>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <TextView 
+        android:textColor="@drawable/menu_background_yuyanlai"
+        android:textSize="30dp"
+        android:id="@+id/people_name"
+        android:text="asd"
+        android:gravity="center"
+        android:layout_height="100dp"
+        android:layout_width="fill_parent"
+        />
+    <ListView
+        android:divider="@color/green"
+        android:dividerHeight="1dp" 
+        android:layout_margin="20dp"
+        android:background="@drawable/shape_content"
+        android:id="@+id/list_setting"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        ></ListView>
+</LinearLayout>

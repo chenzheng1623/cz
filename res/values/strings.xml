@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">成绩查询</string>
+    <string name="hello_world">    cz制作欢迎使用有什么问题请联系我QQ：570806807 </string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_first">FirstActivity</string>
+    <string name="title_activity_show">ShowActivity</string>
+    <string name="title_activity_about">AboutActivity</string>
+    <string name="title_activity_course">CourseActivity</string>
+    <string name="title_activity_main">MainActivity</string>
+
+    <drawable name="menu_background_press">#C1FFC1</drawable>
+    <drawable name="menu_background_yuyanlai">#45c01a</drawable>
+    <drawable name="menu_background">#87CEEB</drawable>
+    <color name="bottom">#BBFFFF</color>
+    
+    
+    <color name="huise">#eee</color>
+    <color name="green">#45c01a</color>
+    <color name="zhonggui">#848484</color>
+
+    <string name="title_activity_nnew">NnewActivity</string>
+	
+    
+</resources>

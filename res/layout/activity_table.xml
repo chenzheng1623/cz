@@ -1,0 +1,436 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="周一"
+            android:textColor="@drawable/menu_background_yuyanlai" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="周二"
+            android:textColor="@drawable/menu_background_yuyanlai" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="周三"
+            android:textColor="@drawable/menu_background_yuyanlai" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="周四"
+            android:textColor="@drawable/menu_background_yuyanlai" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="周五"
+            android:textColor="@drawable/menu_background_yuyanlai" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="20dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="0dp"
+                    android:gravity="center"
+                    android:text="一二节"
+                    android:textColor="@drawable/menu_background_yuyanlai" />
+
+                <TextView
+                    android:id="@+id/t1_1"
+                    android:layout_width="0dp"
+                    android:layout_height="100dp"
+                    android:layout_gravity="top"
+                    android:layout_marginBottom="1dp"
+                    android:layout_marginLeft="1dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/selecter_button"
+                    android:gravity="top"
+                    android:text="没课\n哦亲"
+                    android:textSize="5pt" />
+
+                <TextView
+                    android:id="@+id/t2_1"
+                    android:layout_width="0dp"
+                    android:layout_height="100dp"
+                    android:layout_marginBottom="1dp"
+                    android:layout_marginLeft="1dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/selecter_button"
+                    android:gravity="top"
+                    android:text="没课哦亲"
+                    android:textSize="5pt" />
+
+                <TextView
+                    android:id="@+id/t3_1"
+                    android:layout_width="0dp"
+                    android:layout_height="100dp"
+                    android:layout_marginBottom="1dp"
+                    android:layout_marginLeft="1dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/selecter_button"
+                    android:gravity="top"
+                    android:text="没课哦亲"
+                    android:textSize="5pt" />
+
+                <TextView
+                    android:id="@+id/t4_1"
+                    android:layout_width="0dp"
+                    android:layout_height="100dp"
+                    android:layout_marginBottom="1dp"
+                    android:layout_marginLeft="1dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/selecter_button"
+                    android:gravity="top"
+                    android:text="没课哦亲"
+                    android:textSize="5pt" />
+
+                <TextView
+                    android:id="@+id/t5_1"
+                    android:layout_width="0dp"
+                    android:layout_height="100dp"
+                    android:layout_marginBottom="1dp"
+                    android:layout_marginLeft="1dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/selecter_button"
+                    android:gravity="top"
+                    android:text="没课哦亲"
+                    android:textSize="5pt" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="20dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="0dp"
+                    android:gravity="center"
+                    android:text="三四节"
+                    android:textColor="@drawable/menu_background_yuyanlai" />
+
+                <TextView
+                    android:id="@+id/t1_3"
+                    android:layout_width="0dp"
+                    android:layout_height="100dp"
+                    android:layout_marginBottom="1dp"
+                    android:layout_marginLeft="1dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/selecter_button"
+                    android:gravity="top"
+                    android:text="没课哦亲"
+                    android:textSize="5pt" />
+
+                <TextView
+                    android:id="@+id/t2_3"
+                    android:layout_width="0dp"
+                    android:layout_height="100dp"
+                    android:layout_marginBottom="1dp"
+                    android:layout_marginLeft="1dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/selecter_button"
+                    android:gravity="top"
+                    android:text="没课哦亲"
+                    android:textSize="5pt" />
+
+                <TextView
+                    android:id="@+id/t3_3"
+                    android:layout_width="0dp"
+                    android:layout_height="100dp"
+                    android:layout_marginBottom="1dp"
+                    android:layout_marginLeft="1dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/selecter_button"
+                    android:gravity="top"
+                    android:text="没课哦亲"
+                    android:textSize="5pt" />
+
+                <TextView
+                    android:id="@+id/t4_3"
+                    android:layout_width="0dp"
+                    android:layout_height="100dp"
+                    android:layout_marginBottom="1dp"
+                    android:layout_marginLeft="1dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/selecter_button"
+                    android:gravity="top"
+                    android:text="没课哦亲"
+                    android:textSize="5pt" />
+
+                <TextView
+                    android:id="@+id/t5_3"
+                    android:layout_width="0dp"
+                    android:layout_height="100dp"
+                    android:layout_marginBottom="1dp"
+                    android:layout_marginLeft="1dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/selecter_button"
+                    android:gravity="top"
+                    android:text="没课哦亲"
+                    android:textSize="5pt" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="20dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="0dp"
+                    android:gravity="center"
+                    android:text="五六节"
+                    android:textColor="@drawable/menu_background_yuyanlai" />
+
+                <TextView
+                    android:id="@+id/t1_5"
+                    android:layout_width="0dp"
+                    android:layout_height="100dp"
+                    android:layout_marginBottom="1dp"
+                    android:layout_marginLeft="1dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/selecter_button"
+                    android:gravity="top"
+                    android:text="没课哦亲"
+                    android:textSize="5pt" />
+
+                <TextView
+                    android:id="@+id/t2_5"
+                    android:layout_width="0dp"
+                    android:layout_height="100dp"
+                    android:layout_marginBottom="1dp"
+                    android:layout_marginLeft="1dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/selecter_button"
+                    android:gravity="top"
+                    android:text="没课哦亲"
+                    android:textSize="5pt" />
+
+                <TextView
+                    android:id="@+id/t3_5"
+                    android:layout_width="0dp"
+                    android:layout_height="100dp"
+                    android:layout_marginBottom="1dp"
+                    android:layout_marginLeft="1dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/selecter_button"
+                    android:gravity="top"
+                    android:text="没课哦亲"
+                    android:textSize="5pt" />
+
+                <TextView
+                    android:id="@+id/t4_5"
+                    android:layout_width="0dp"
+                    android:layout_height="100dp"
+                    android:layout_marginBottom="1dp"
+                    android:layout_marginLeft="1dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/selecter_button"
+                    android:gravity="top"
+                    android:text="没课哦亲"
+                    android:textSize="5pt" />
+
+                <TextView
+                    android:id="@+id/t5_5"
+                    android:layout_width="0dp"
+                    android:layout_height="100dp"
+                    android:layout_marginBottom="1dp"
+                    android:layout_marginLeft="1dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/selecter_button"
+                    android:gravity="top"
+                    android:text="没课哦亲"
+                    android:textSize="5pt" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="20dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="0dp"
+                    android:gravity="center"
+                    android:text="七八节"
+                    android:textColor="@drawable/menu_background_yuyanlai" />
+
+                <TextView
+                    android:id="@+id/t1_7"
+                    android:layout_width="0dp"
+                    android:layout_height="100dp"
+                    android:layout_marginBottom="1dp"
+                    android:layout_marginLeft="1dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/selecter_button"
+                    android:gravity="top"
+                    android:text="没课哦亲"
+                    android:textSize="5pt" />
+
+                <TextView
+                    android:id="@+id/t2_7"
+                    android:layout_width="0dp"
+                    android:layout_height="100dp"
+                    android:layout_marginBottom="1dp"
+                    android:layout_marginLeft="1dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/selecter_button"
+                    android:gravity="top"
+                    android:text="没课哦亲"
+                    android:textSize="5pt" />
+
+                <TextView
+                    android:id="@+id/t3_7"
+                    android:layout_width="0dp"
+                    android:layout_height="100dp"
+                    android:layout_marginBottom="1dp"
+                    android:layout_marginLeft="1dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/selecter_button"
+                    android:gravity="top"
+                    android:text="没课哦亲"
+                    android:textSize="5pt" />
+
+                <TextView
+                    android:id="@+id/t4_7"
+                    android:layout_width="0dp"
+                    android:layout_height="100dp"
+                    android:layout_marginBottom="1dp"
+                    android:layout_marginLeft="1dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/selecter_button"
+                    android:gravity="top"
+                    android:text="没课哦亲"
+                    android:textSize="5pt" />
+
+                <TextView
+                    android:id="@+id/t5_7"
+                    android:layout_width="0dp"
+                    android:layout_height="100dp"
+                    android:layout_marginBottom="1dp"
+                    android:layout_marginLeft="1dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/selecter_button"
+                    android:gravity="top"
+                    android:text="没课哦亲"
+                    android:textSize="5pt" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <TextView
+                     android:textColor="@drawable/menu_background_yuyanlai"
+                    android:layout_width="20dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="0dp"
+                    android:gravity="center"
+                    android:text="九十节" />
+
+                <TextView
+                    android:id="@+id/t1_9"
+                    android:layout_width="0dp"
+                    android:layout_height="100dp"
+                    android:layout_marginBottom="1dp"
+                    android:layout_marginLeft="1dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/selecter_button"
+                    android:gravity="top"
+                    android:text="没课哦亲"
+                    android:textSize="5pt" />
+
+                <TextView
+                    android:id="@+id/t2_9"
+                    android:layout_width="0dp"
+                    android:layout_height="100dp"
+                    android:layout_marginBottom="1dp"
+                    android:layout_marginLeft="1dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/selecter_button"
+                    android:gravity="top"
+                    android:text="没课哦亲"
+                    android:textSize="5pt" />
+
+                <TextView
+                    android:id="@+id/t3_9"
+                    android:layout_width="0dp"
+                    android:layout_height="100dp"
+                    android:layout_marginBottom="1dp"
+                    android:layout_marginLeft="1dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/selecter_button"
+                    android:gravity="top"
+                    android:text="没课哦亲"
+                    android:textSize="5pt" />
+
+                <TextView
+                    android:id="@+id/t4_9"
+                    android:layout_width="0dp"
+                    android:layout_height="100dp"
+                    android:layout_marginBottom="1dp"
+                    android:layout_marginLeft="1dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/selecter_button"
+                    android:gravity="top"
+                    android:text="没课哦亲"
+                    android:textSize="5pt" />
+
+                <TextView
+                    android:id="@+id/t5_9"
+                    android:layout_width="0dp"
+                    android:layout_height="100dp"
+                    android:layout_marginBottom="1dp"
+                    android:layout_marginLeft="1dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/selecter_button"
+                    android:gravity="top"
+                    android:text="没课哦亲"
+                    android:textSize="5pt" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
