@@ -22,7 +22,6 @@ import android.database.sqlite.SQLiteDatabase;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
-import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
 import android.support.v4.widget.SwipeRefreshLayout;
 import android.support.v4.widget.SwipeRefreshLayout.OnRefreshListener;
@@ -53,6 +52,7 @@ public class coursefragment extends Fragment implements OnRefreshListener {
 	private AbHttpUtil mabHttpUtil;
 	//第一次启动程序
 	private boolean flag=true;
+	
 	View view;
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
@@ -80,7 +80,7 @@ public class coursefragment extends Fragment implements OnRefreshListener {
 	}
 	@Override
 	public View onCreateView(LayoutInflater inflater,
-			@Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
+			 ViewGroup container,  Bundle savedInstanceState) {
 		refresh();
 		return view;
 	}

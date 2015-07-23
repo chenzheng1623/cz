@@ -3,8 +3,8 @@ import com.example.util.Util;
 import com.example.util.network;
 import com.example.util.Util.HttpConnectionListener;
 
-import android.support.v7.app.ActionBarActivity;
 import android.annotation.SuppressLint;
+import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
@@ -24,7 +24,7 @@ import android.widget.ImageView;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
-public class ShowActivity extends ActionBarActivity {
+public class ShowActivity extends Activity {
 
 	int [] wappwer={R.drawable.cz1,R.drawable.cz2,R.drawable.cz3,R.drawable.cz4,R.drawable.cz5,R.drawable.cz6,
 			R.drawable.cz7,R.drawable.cz8,R.drawable.cz9,R.drawable.cz10};
@@ -36,7 +36,6 @@ public class ShowActivity extends ActionBarActivity {
 	protected void onCreate(Bundle savedInstanceState) {
 
 		super.onCreate(savedInstanceState);
-		//设置不要标题栏
 		requestWindowFeature(Window.FEATURE_NO_TITLE);
 		//设置全屏
 		getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);

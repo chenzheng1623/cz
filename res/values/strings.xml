@@ -9,6 +9,9 @@
     <string name="title_activity_about">AboutActivity</string>
     <string name="title_activity_course">CourseActivity</string>
     <string name="title_activity_main">MainActivity</string>
+    <string name="open">open</string>
+    <string name="close">close</string>
+    <string name="title_activity_nnew">NnewActivity</string>
 
     <drawable name="menu_background_press">#C1FFC1</drawable>
     <drawable name="menu_background_yuyanlai">#45c01a</drawable>
@@ -19,8 +22,21 @@
     <color name="huise">#eee</color>
     <color name="green">#45c01a</color>
     <color name="zhonggui">#848484</color>
+    <color name="light_warm_red">#CCFF6347</color>
+    <color name="warm_red">#FF6347</color>
+    <color name="dark_warm_red">#FF6347</color>
+    <color name="grey" >#ffbebebe</color>
+    <color name="dark_grey">#FF080808</color>
+    <color name="light_grey">#ffbebebe</color>
+    <color name="light_grey_1">#FFEEEEEE</color>
 
-    <string name="title_activity_nnew">NnewActivity</string>
+    <color name="main_color">@color/warm_red</color>
+    <color name="dark_main_color">@color/dark_warm_red</color>
+
+    <color name="drawer_scrim_color">#88eeeeee</color>
+    <color name="action_bar_title_color">@android:color/white</color>
+    <color name="window_background">@android:color/white</color>
+
 	
     
 </resources>

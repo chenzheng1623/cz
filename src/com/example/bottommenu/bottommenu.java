@@ -26,7 +26,6 @@ import android.widget.AbsListView.OnScrollListener;
  * 然后绘制带颜色和alpha的icon（先绘制纯色，设置模式再绘制 icon）
  * 
  * @author cz
- *
  */
 public class bottommenu extends View {
 
