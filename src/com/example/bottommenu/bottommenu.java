@@ -1,7 +1,5 @@
 package com.example.bottommenu;
 
-import com.example.cz.R;
-
 import android.content.Context;
 import android.content.res.TypedArray;
 import android.graphics.Bitmap;
@@ -13,13 +11,12 @@ import android.graphics.PorterDuffXfermode;
 import android.graphics.Rect;
 import android.graphics.Typeface;
 import android.graphics.drawable.BitmapDrawable;
-import android.media.ImageReader;
 import android.os.Looper;
 import android.util.AttributeSet;
 import android.util.TypedValue;
 import android.view.View;
-import android.view.animation.AnimationUtils;
-import android.widget.AbsListView.OnScrollListener;
+
+import com.example.cz.R;
 
 
 /**先在指定矩形内绘制 一个icon  和文字
@@ -49,7 +46,7 @@ public class bottommenu extends View {
 				BitmapDrawable drawable= (BitmapDrawable) ta.getDrawable(attr);
 				image= drawable.getBitmap();
 				break;
-			case R.styleable.bottommenu_color:
+			case R.styleable.bottommenu_buttoncolor:
 				mcolor=ta.getColor(attr, 0x45c01a);
 				break;
 			case R.styleable.bottommenu_text:

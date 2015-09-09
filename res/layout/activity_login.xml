@@ -30,6 +30,7 @@
                 android:textAppearance="?android:attr/textAppearanceMedium" />
 
             <EditText
+                android:hint="学号"
                 android:id="@+id/user"
                 android:layout_width="170dp"
                 android:layout_height="wrap_content"

@@ -54,7 +54,7 @@ public class ShowActivity extends Activity {
 		animation.setFillAfter(true);
 		showlayout.setAnimation(animation);
 		
-		if (network.checkNetwork(getApplicationContext())) {
+		if (Util.checkNeywork(getApplicationContext())) {
 
 			new Handler().postDelayed(new Runnable() {
 				@Override
@@ -87,7 +87,6 @@ public class ShowActivity extends Activity {
 			PackageInfo info=manager.getPackageInfo(getPackageName(), 0);
 			return info.versionName;
 		} catch (NameNotFoundException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 			return "版本号未知";
 		}

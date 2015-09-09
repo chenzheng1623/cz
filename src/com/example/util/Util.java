@@ -18,8 +18,12 @@ import java.net.URL;
  * Created by cz on 2015/6/19.
  */
 public class Util {
-
-    public static void checkNeywork(Context Context) {
+    /**
+     * 检查网络连接
+     * @param Context
+     * @return
+     */
+    public static boolean checkNeywork(Context Context) {
         boolean wifiConnected;
         boolean mobileConnected;
         ConnectivityManager connManager = (ConnectivityManager) Context.getSystemService(Context.CONNECTIVITY_SERVICE);
@@ -28,16 +32,24 @@ public class Util {
             wifiConnected = activeinfo.getType() == ConnectivityManager.TYPE_WIFI;
             mobileConnected = activeinfo.getType() == ConnectivityManager.TYPE_MOBILE;
             if (wifiConnected) {
-                Toast.makeText(Context, "wifi connected", Toast.LENGTH_SHORT).show();
-
+             //   Toast.makeText(Context, "wifi connected", Toast.LENGTH_SHORT).show();
+                return true;
             } else if (mobileConnected) {
-                Toast.makeText(Context, "mobile connected", Toast.LENGTH_SHORT).show();
+              //  Toast.makeText(Context, "mobile connected", Toast.LENGTH_SHORT).show();
+                return true;
             }
         } else {
-            Toast.makeText(Context, "network notconnected", Toast.LENGTH_SHORT).show();
-
+            Toast.makeText(Context, "网络链接不可用", Toast.LENGTH_SHORT).show();
+            return false;
         }
+        return false;
     }
+    /**
+     * 通用网络请求
+     * @param urlString
+     * @param httplistener
+     * @return
+     */
     public  static  String httpconn(String urlString,HttpConnectionListener httplistener){
 
         try {
@@ -48,12 +60,10 @@ public class Util {
             conn.setReadTimeout(10000);
             conn.setRequestMethod("GET");
             conn.connect();
-
             InputStream stream=conn.getInputStream();
             BufferedReader reader = new BufferedReader(new InputStreamReader(stream));
             StringBuffer buffer=new StringBuffer();
             String content=null;
-
             while ((content=reader.readLine()) != null){
                 buffer.append(content);
             }

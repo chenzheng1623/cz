@@ -45,6 +45,9 @@ import android.widget.SimpleAdapter;
 import android.widget.TextView;
 import android.widget.Toast;
 
+/**
+ * 成绩查询
+ */
 public class gradefragment extends Fragment implements OnRefreshListener {
 
 	private String gradeUrl="http://jw3.nwnu.edu.cn:7001/WebEducation/studentresultservlet?action=A&ontop=N&stid=";

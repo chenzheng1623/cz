@@ -1,8 +1,13 @@
 apply plugin: 'android'
 
 dependencies {
-    compile fileTree(dir: 'libs', include: '*.jar')
-    compile project(':appcompat_v7')
+    compile 'com.android.support:support-v4:22.2.1'
+    compile 'com.android.support:appcompat-v7:22.2.1'
+    compile files('libs/jsoup-1.6.1.jar')
+    compile files('libs/andbase.jar')
+    compile 'com.android.support:design:22.2.1'
+    compile 'com.jakewharton:butterknife:5.1.1'
+    compile 'com.squareup.okhttp:okhttp:2.0.0'
 }
 
 android {

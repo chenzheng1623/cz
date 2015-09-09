@@ -1,46 +1,29 @@
 package com.example.cz;
 
-import java.io.IOException;
-import java.io.InputStream;
-import java.util.List;
-import java.util.Map;
-
-import org.apache.http.HttpResponse;
-import org.apache.http.client.ClientProtocolException;
-import org.apache.http.client.HttpClient;
-import org.apache.http.client.methods.HttpGet;
-import org.apache.http.impl.client.DefaultHttpClient;
-import org.apache.http.impl.conn.DefaultClientConnection;
-import org.apache.http.protocol.HTTP;
-import org.jsoup.helper.Validate;
-
-import com.example.util.network;
-import com.example.util.parserxml;
-
-import android.R.string;
-import android.support.v7.app.ActionBarActivity;
 import android.annotation.SuppressLint;
-import android.app.Activity;
 import android.app.AlertDialog;
 import android.app.ProgressDialog;
 import android.content.Intent;
 import android.content.SharedPreferences;
-import android.graphics.Color;
-import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
+import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.KeyEvent;
-import android.view.Menu;
-import android.view.MenuItem;
 import android.view.View;
 import android.view.Window;
-import android.widget.AutoCompleteTextView.Validator;
 import android.widget.Button;
 import android.widget.EditText;
 
-@SuppressLint("NewApi") public class LoginActivity extends Activity {
+import com.example.util.network;
+import com.example.util.parserxml;
+
+import java.io.InputStream;
+import java.util.List;
+import java.util.Map;
+
+@SuppressLint("NewApi") public class LoginActivity extends AppCompatActivity {
 
 	private Button login,out;
 	private EditText user,word;
@@ -81,8 +64,8 @@ import android.widget.EditText;
 	};
 	@SuppressLint("NewApi") @Override
 	protected void onCreate(Bundle savedInstanceState) {
-		super.onCreate(savedInstanceState);
 		requestWindowFeature(Window.FEATURE_NO_TITLE);
+		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_login);
 		login=(Button) findViewById(R.id.login);
 		user=(EditText) findViewById(R.id.user);
@@ -127,7 +110,6 @@ import android.widget.EditText;
 					message.setData(bundle);
 					handler.sendMessage(message);
 					System.out.println(info.toString());
-
 				}
 			}).start();
 		}

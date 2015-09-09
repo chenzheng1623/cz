@@ -3,7 +3,7 @@
 
     <declare-styleable name="bottommenu">
         <attr name="image" format="reference" />
-     	<attr name="button_color" format="color"></attr>
+     	<attr name="buttoncolor" format="color"></attr>
         <attr name="text" format="string" />
         <attr name="text_size" format="dimension" />
     </declare-styleable>
